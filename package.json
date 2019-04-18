@@ -4,6 +4,11 @@
   "description": "api for aquiring data from a nosql database",
   "main": "index.js",
   "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
