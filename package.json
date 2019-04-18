@@ -1,9 +1,19 @@
 {
   "name": "property-api",
   "version": "1.0.0",
-  "description": "API for retrieving property data from a NoSQL database",
+  "description": "api for aquiring data from a nosql database",
   "main": "index.js",
-  "repository": "git@github.com:mkrul/property-api.git",
-  "author": "mkrul <mishakrul@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrul/property-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkrul/property-api/issues"
+  },
+  "homepage": "https://github.com/mkrul/property-api#readme"
 }
